@@ -35,6 +35,11 @@ function draw() {
   drawSprites();
  
 }
-
+function keyPressed(){
+if(keyCode===32){
+   Matter.Body.applyForce(ball.body,ball.body.position,{
+   x:100,y:-100})
+   }
+}
 
 
