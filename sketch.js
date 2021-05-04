@@ -18,7 +18,7 @@ function setup() {
 
 	//Create the Bodies Here.
 ground=new Ground(700,650,1400,20)
-ball= new BallClass(200,650,40)
+ball= new BallClass(200,450,40)
 dustbin1=new DustbinClass(1200,500,300,300)
 
 	Engine.run(engine);
